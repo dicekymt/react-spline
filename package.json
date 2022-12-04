@@ -6,6 +6,10 @@
   "files": [
     "dist"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dicekymt/react-spline.git"
+  },
   "types": "./dist/Spline.d.ts",
   "main": "./dist/react-spline.cjs.js",
   "module": "./dist/react-spline.es.js",
