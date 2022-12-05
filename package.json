@@ -24,7 +24,7 @@
     "build": "vite build && yarn build-types",
     "build-types": "tsc --skipLibCheck --isolatedModules false --noEmit false --emitDeclarationOnly --declaration --outDir dist/",
     "publish": "yarn build && np",
-    "postinstall":"npm run build"
+    "postinstall":"yarn publish"
   },
   "peerDependencies": {
     "@splinetool/runtime": "*",
